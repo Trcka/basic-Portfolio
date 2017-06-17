@@ -21,7 +21,7 @@ body header {
 	border:solid 1px #cccccc;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	width: 960px;
-	height:75px;
+	height:77px;
 	padding-right: 30px;
 }
 header h1
@@ -56,7 +56,7 @@ ul li {
 	text-decoration: none;
 	color: #777777;
 }
-	ul a:hover {
+	header ul a:hover {
 	background-color: #4aaaa5;
 	padding: 15px 10px;
 }
@@ -97,7 +97,7 @@ line-height: 30px;
 .bio img{
 	float:left;
 	clear:both;
-	margin:30px;
+	margin:25px;
 }
 
 aside {
@@ -109,7 +109,7 @@ aside {
 	background-color:#ffffff;
 	border: solid 1px #dddddd;
 	position: relative;
-	bottom: 500px;
+	bottom: 600px;
 	right:0;
 }
 aside hr{
@@ -128,18 +128,110 @@ aside h2 {
 }
 aside ul{
 	margin:0;
+	padding:10px;
 
 }
 aside img {
 	width: 55px;
 	height: 55px;
+	display: inline-block;
+	margin-right:8px;
+	padding-left:-10px;
 }
-footer p
-{
-	bottom:0;
-	position: absolute;
-	height: 10px;
-	margin-bottom: 5px;
-	width:400px;
-	background-color: #666;
+ aside ul a:hover {
+background-color: #4aaaa5;
+height:45px;
+}
+.port img{
+	float:none;
+}
+.port p{
+	float:left;
+}
+
+.image {
+   position: relative;
+   width: -100%;
+	 /* for IE 6 */
+}
+.image h2{
+	position: relative;
+	rigth:100px
+}
+h2 span {
+   color: white;
+   background: #4aaaa5;
+   padding: 10px;
+}
+.portfolio {
+	display: inline-block;
+	width: 250px;
+	height: 200px;
+	margin-bottom: 45px;
+	text-align: center;
+}
+.portfolio p {
+	color: white;
+	background-color: #4aaaa5;
+	font-size: 20px;
+	padding:15px;
+margin: 70px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+form{
+	margin: 10px;
+}
+input {
+	width: 100%;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+input[type= "text"] {
+	padding: 5px;
+}
+#message {
+	height: 300px;
+	width: 100%;
+	margin-top: 5px;
+}
+
+#hangman {
+	background: url(../images/hangman.png);
+	background-size: cover;
+	margin-right: 53px;
+}
+
+#rpg {
+	background: url(../images/rpg.jpg);
+	background-size: cover;
+}
+
+#trivia {
+	background: url(../images/trivia.png);
+	background-size: cover;
+	margin-right: 53px;
+}
+
+#rutgers {
+	background: url(../images/widget.png);
+	background-size: cover;
+}
+
+#rockpaper {
+	background: url(../images/rps.png);
+	background-size: cover;
+}
+footer {
+	width: 100%;
+	height:80px;
+	border-top: solid 7px #4aaaa5;
+	text-align: center;
+	clear:both;
+	background-color: #666666;
+}
+
+footer p {
+	margin-top: 35px;
+	color:#c2cccc;
 }
